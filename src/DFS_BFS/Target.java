@@ -3,7 +3,7 @@ package DFS_BFS;
 import java.util.*;
 
 //타겟 넘버
-class Solution {
+class Target {
     static int answer;
     public static int solution(int[] numbers, int target) {
     	answer=0; //초기화해줘야 누적으로 추가가 안됨.
